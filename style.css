@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  /* background-color: lightcyan;
+  background-image: url("https://source.unsplash.com/IkkMQi-MZws/1600x900");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top top;
+  background-size: cover; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: lightcyan url("https://source.unsplash.com/BoftkNpWhZ8/1600x900")
+    no-repeat fixed center center/cover;
+}
+header {
+  background-color: cornflowerblue;
+  color: darkslateblue;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline;
+}
+a {
+  color: darkslateblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  max-width: 1200px;
+  min-width: 200px;
+  margin: 0 auto;
+}
+table {
+  border-width: 2px;
+  border-color: darkslateblue;
+  border-style: dotted;
+}
+tr {
+  border-width: 2px;
+  border-color: darkslateblue;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+.box2 {
+  padding: 20px;
+  margin: 15px;
+  background-color: burlywood;
+  border: 10px solid rgb(103, 87, 129);
+  border-top: 15px solid saddlebrown;
+  border-left: solid 10px cornflowerblue;
+}
+.box3 {
+  background-color: green;
+  border: 10px solid yellow;
+  border-style: groove;
+}
+.box4 {
+  background-color: rgb(1, 3, 1);
+  border: 10px solid yellow;
+  border-style: dotted;
+  border-radius: 20px;
+}
+
+.circle {
+  background-color: red;
+  border-style: groove;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+img {
+  float: left;
+  padding: 10px;
+  clear: both;
+}
